@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#7EB5E4"
+                tools:context=".ResultFragment">
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/player1_result" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="346dp" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="641dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/player2_result" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="346dp" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="551dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/result1" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="125dp" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="640dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/result2" android:layout_alignParentEnd="true"
+            android:layout_marginEnd="127dp" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="555dp"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Back"
+            android:textStyle="bold"
+
+            android:layout_alignParentEnd="true" android:layout_marginEnd="170dp"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="279dp"
+            android:id="@+id/btn_back" android:backgroundTint="#223437"></Button>
+
+</RelativeLayout>
